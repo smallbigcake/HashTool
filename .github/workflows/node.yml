@@ -21,16 +21,16 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Setup Node
-      - uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v2.1.2
         with:
           node-version: '14.x'
 
       # Runs a single command using the runners shell
       - name: Checkout repository
-      - uses: actions/checkout@v2.3.3
+        uses: actions/checkout@v2.3.3
 
       # Runs a set of commands using the runners shell
-      - name: Install dependencies & build.
+      - name: Install dependencies & build
         run: |
           npm install
           npm run build
