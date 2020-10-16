@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <img width="256" alt="Vue logo" src="./assets/logo.svg">
   <HashTool msg="Welcome to Hash Tool App"/>
 </template>
 
